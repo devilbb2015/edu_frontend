@@ -2,6 +2,27 @@ https://www.w3schools.com
 
 # 프론트 엔드 개발
 
+## 표기법
+- 사용자가 이름을 지정하는 경우
+- 여러 단어를 사용해서 이름을 지정하는 경우
+
+```
+html-css : kebab case
+
+html_css : snake case - Python
+
+htmlCss : camel case - Javascript, JAVA, C, C++
+
+HtmlCss : Pascal case - Javascript, JAVA, C, C++ (Class 이름 설정시)
+
+Front End
+- HTML( class, id ) : kebab case
+- File/Folder name : snake case
+- Js : Camel case
+- Js - Class : Pascal Case
+```
+
+
 ## HTML
 
 ### HTML Instroduction
