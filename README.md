@@ -63,6 +63,9 @@ https://www.w3schools.com/html/html_elements.asp
 ### HTML Attributes
 https://www.w3schools.com/html/html_attributes.asp
 
+### HTML Heading
+https://www.w3schools.com/html/html_headings.asp
+
 ### HTML Paragraphs
 https://www.w3schools.com/html/html_paragraphs.asp
 
@@ -100,7 +103,27 @@ https://www.w3schools.com/html/html_filepaths.asp
 - ex) 파일(폴더) 경로 : html/html_filepaths.asp , ../html/html_filepaths.asp
 - ex) 루트 상대 경로 : /html/html_filepaths.asp
 
+### HTML Tables
+https://www.w3schools.com/html/html_tables.asp
+
+### HTML Generator
+https://www.w3schools.com/html/html_tables.asp
+
+### HTML List
+https://www.w3schools.com/html/html_lists.asp
+
+중첩목록(Nested lists) - 여러 수준(레벨)으로 구성된 목록
 
 
+### HTML Images
+https://www.w3schools.com/html/html_images.asp
+
+alt : alternative
+
+### HTML Videos
+https://www.w3schools.com/html/html5_video.asp
+
+### HTML Youtube
+https://www.w3schools.com/html/html_youtube.asp
 
 
