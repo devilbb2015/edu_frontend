@@ -248,6 +248,12 @@ https://www.w3schools.com/css/css_padding.asp
 
 https://www.w3schools.com/css/css_margin.asp
 
+### CSS Border
+
+https://www.w3schools.com/css/css_border.asp
+
+> border 축약 표현에 방향을 더해서 표시하는 내용으로 정리.
+
 ### CSS Background
 
 https://www.w3schools.com/css/css_background.asp
@@ -255,10 +261,46 @@ https://www.w3schools.com/css/css_background.asp
 \*\* CSS 상속
 
 > 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
+> 모든 css 속성이 상속되는 것은 아님
 
 \*\* CSS color 코드값
 
 > CSS에서 16진수 코드값과 10진수 코드값을 사용할 수 있음.
-> 16진수 코드값 : #16진수숫자 6자리
+> 16진수 코드값 : #16진수숫자 6자리(0~9, a~f)
 > 10진수 코드값 : rgb(10진수숫자, 10진수숫자, 10진수숫자)
 > 10진수 코드값 + 투명도 표시 : rgba(10진수숫자, 10진수숫자, 10진수숫자, 0.0 ~ 1.0)
+
+### CSS Flexbox
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+> 박스 배치 제어를 위한 display:flex 속성및 배치 관련 속성을 부모요소에 적용함.
+
+> flex-direction 속성
+>
+> - 박스 배치 방향 제어
+> - 가로배치, 세로배치 모두 제어가 가능함
+> - 가로배치가 기본 값
+
+### 반응형 웹
+
+> 반응형 웹, 적응형 웹
+> OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
+> Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
+
+### Media Query
+
+>
+
+```
+Ex) pc 해상도 : 1024px ~ 1920px / phont 해상도 : 320px ~ 640px
+
+@media screen and (min-width:1024px) and (max-width:1920px){}
+@media screen and (min-width:320px) and (max-width:640px){}
+
+Ex) pc 해상도(기준) : 해상도 설정 하지 않음 / tablet 해상도 : ~ 900px phone 해상도 : ~ 640px
+
+body {color:red;}
+@media screen and (max-width:900) {}
+@media screen and (max-width:640) {}
+```
