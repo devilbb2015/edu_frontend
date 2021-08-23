@@ -273,6 +273,43 @@ table {
     display: none;
   }
   .group {
+    flex-flow: row wrap;
+  }
+
+  .figure {
+    margin: 10px 0;
+  }
+
+@media screen and (max-width: 700px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+  }
+  .logo {
+    margin-top: 10px;
+    /* 인라인 요소에 text-align을 적용 가능 */
+    text-align: center;
+  }
+  .gnb {
+    margin-top: 15px;
+  }
+  .gnb-list {
+    justify-content: center;
+  }
+  .gnb-list-item:first-child {
+    margin-left: 0;
+  }
+  .section-heading {
+    font-size: 24px;
+  }
+  .paragraph {
+    padding: 0 20px;
+  }
+  .paragraph br {
+    display: none;
+  }
+  .group {
     flex-direction: column;
   }
 
@@ -280,3 +317,4 @@ table {
     margin: 10px auto;
   }
 }
+
