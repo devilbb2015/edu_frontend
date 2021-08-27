@@ -13,22 +13,22 @@ console.log(document.querySelectorAll("div"));
 
 document.getElementById("text1").innerHTML = "Hello World";
 
-// const para = document.createElement("p");
-// const node = document.createTextNode("Hello HTML5");
-// const element = para.appendChild(node);
-// document.querySelectorAll(".text2")[0].appendChild(element);
+const para = document.createElement("p");
+const node = document.createTextNode("Hello HTML5");
+para.appendChild(node);
+document.querySelectorAll(".text2")[0].appendChild(para);
 
-// const para1 = document.createElement("p");
-// const node1 = document.createTextNode("Hello HTML5");
-// const element1 = para1.appendChild(node1);
-// document.querySelectorAll(".text2")[0].appendChild(element1);
+const para1 = document.createElement("p");
+const node1 = document.createTextNode("Hello HTML5");
+para1.appendChild(node1);
+document.querySelectorAll(".text2")[0].appendChild(para1);
 
 let text2Element = document.querySelectorAll(".text2");
 for (let i = 0; i < text2Element.length; i++) {
-  const para = document.createElement("p");
-  const node = document.createTextNode("Hello HTML5");
-  const el = para.appendChild(node);
-  text2Element[i].appendChild(el);
+  const p = document.createElement("p");
+  const n = document.createTextNode("Hello HTML5");
+  p.appendChild(n);
+  text2Element[i].appendChild(p);
 }
 
 // document.querySelector(".text2").appendChild("<p>Append Node..</p>");

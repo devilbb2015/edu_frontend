@@ -1,4 +1,4 @@
-# JavaScript
+# Javascript
 
 ## 프로그래밍언어 문법 공부
 
@@ -43,10 +43,10 @@ https://www.w3schools.com/js/js_operators.asp
 https://www.w3schools.com/js/js_if_else.asp
 
 > 조건문 / 분기문
-> if 구문에 사용된는 condition 식은 결과가 true/false가 나올 수 있는 식
+> if구문에 사용되는 condition 식은 결과가 true/false가 나올 수 있는 식
 > javascript에서 0 - false, 그 이외의 정수 - true
 
-### JS Switch
+### JS switch
 
 https://www.w3schools.com/js/js_switch.asp
 
@@ -56,7 +56,7 @@ https://www.w3schools.com/js/js_switch.asp
 
 https://www.w3schools.com/js/js_loop_for.asp
 
-### JS Loop While
+### JS Loop while
 
 https://www.w3schools.com/js/js_loop_while.asp
 
@@ -66,11 +66,11 @@ https://www.w3schools.com/js/js_loop_while.asp
 
 https://www.w3schools.com/js/js_functions.asp
 
-> 함수 선언 기본 방식
+> 함수 선언 기본 형식
 >
-> 함수에 매개변수 사용하는 방식
+> 함수에 매개변수 사용하는 형식
 >
-> 함수에 return을 사용하는 방식
+> 함수에 return을 사용하는 형식
 
 ### JS Arrow Function
 
@@ -106,7 +106,7 @@ https://www.w3schools.com/js/js_this.asp
 
 > this 가 사용되는 위치
 >
-> - object 안에 있는 method에서 사용 : 포함하는 object를 가리킴
+> - Object 안에 있는 method에서 사용 : 포함하는 Object를 가리킴
 > - 전역 공간에서 사용 : 전역 객체를 가리킴
 > - 함수 공간에서 사용 : 전역 객체를 가리킴
 
@@ -126,23 +126,21 @@ https://www.w3schools.com/js/js_this.asp
 >
 > - HTML Element를 객체로 만든 것
 
-> BOM(Browser Object Model)
->
-> - Browser와 연관된 객체
+> BOM(Browser Object Model) -브라우저와 연관된 객체
 
 > 외부 API
 >
-> - 지도 API의 객체, 날짜 데이터 API의 객체
+> - 지도 API의 객체, 날씨 데이터 API의 객체
 
 ### DOM 콘텐츠
 
-> HTML문서에 없던 콘텐츠를 생성 => 동적(Dynamic) 생성
+> HTML문서에 없던 콘텐츠를 프로그래밍을 통해서 생성 => 동적(Dynamic) 생성
 
 ### Finding DOM
 
 > HTML4
 >
-> getElementById()
+> getElementByID()
 >
 > getElementsByTagName()
 >
@@ -163,13 +161,13 @@ https://www.w3schools.com/js/js_this.asp
 >
 > document.appendChild()
 
-### Vanilla JS / jquery
+### Vanilla js / jquery
 
-> Vanilla JS : 라이브러리나 프레임워크 사용없이 순수 자바스크립트로 개발하는 것
+> Vanilla Js : 라이브러리나 프레임워크 사용없이 순수 자바스크립트로 개발하는 것
 >
 > jquery : javascript 라이브러리
 >
-> - $() == $(document).ready() : HTML Element 가 모두 랜더링된 이후에 실행
+> - $() == $(document).ready() : HTML Element가 모두 렌더링된 이후에 실행
 
 ### JS Event
 
@@ -179,9 +177,11 @@ https://www.w3schools.com/js/js_htmldom_events.asp
 >
 > 이벤트 종류
 >
-> - 마우스 : 클릭, 움직임, 휠 ...
-> - 키보드 : 키 누름 (상태변화)...
+> - 마우스 : 클릭, 움직임, 휠...
+> - 키보드 : 키 누름...
 
 ### JS Event Listener(Handler)
 
-> addEventListener(이벤트, 실행
+> addEventListener(이벤트, 함수)
+>
+> - jquery : on()
