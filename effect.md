@@ -27,7 +27,7 @@ https://www.w3schools.com/css/css3_transitions.asp
 
 > motion 적용 시기를 제어 => javascript 로 제어
 
-### CSS POsition
+### CSS Position
 
 https://www.w3schools.com/css/css_positioning.asp
 
